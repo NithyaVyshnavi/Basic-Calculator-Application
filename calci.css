@@ -1,0 +1,27 @@
+.hello {
+  background-color: rgb(148, 234, 127);
+  width: 400px;
+  height: 500px;
+  padding-top: 2px;
+  padding-left: 6px;
+  margin-top: 40px;
+  border: 2px solid rgb(124, 112, 236);
+}
+.main {
+  color: rgb(124, 112, 236);
+  font-size: 30px;
+  text-align: center;
+}
+.operation {
+  font-size: 25px;
+  color: rgb(124, 112, 236);
+}
+.btn {
+  font-size: 25px;
+  color: rgb(211, 239, 86);
+  background-color: rgb(124, 112, 236);
+  border: 1px solid black;
+}
+.bdy {
+  background-color: rgb(171, 203, 225);
+}
