@@ -2,7 +2,8 @@
 A visually appealing and user-friendly web calculator built using HTML and CSS. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division between two numbers.
 
 ##  UI Preview
-![image](https://github.com/user-attachments/assets/d9140365-21e2-48a4-8a03-90976054cb32)
+![image](![Screenshot 2025-04-08 154527](https://github.com/user-attachments/assets/a926116d-8d77-4aef-8dbe-5187edf75af8)
+)
 
 ---
 
