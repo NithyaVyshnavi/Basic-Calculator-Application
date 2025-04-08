@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Calculator Application</title>
+    <link rel="stylesheet" href="./calci.css" />
+  </head>
+  <body class="bdy">
+    <center>
+      <div class="hello">
+        <h1 class="main">Basic Calculator Application</h1>
+        <table cellpadding="10" border="0">
+          <tr>
+            <td>Enter First Number:</td>
+            <td><input type="text" id="first" /></td>
+          </tr>
+          <tr>
+            <td>Enter Second Number:</td>
+            <td><input type="text" id="second" /></td>
+          </tr>
+          <tr>
+            <td colspan="2" class="operation"><b>Select Operations</b></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input type="radio" name="op" value="Addition" /> Add
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input type="radio" name="op" value="Subtraction" /> Subtract
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input type="radio" name="op" value="Multiplication" /> Multiply
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input type="radio" name="op" value="Division" /> Divide
+            </td>
+          </tr>
+          <tr>
+            <td>Result:</td>
+            <td><input type="text" id="result" /></td>
+          </tr>
+          <center>
+        </table>
+        <button class="btn" id="btn" onclick="compute()">Calculate</button>
+    </center>
+      </div>
+    </center>
+    <script src="./calci.js">
+    </script>
+  </body>
+</html>
